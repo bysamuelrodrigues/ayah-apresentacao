@@ -4,7 +4,7 @@ export const icon=(name)=>`<svg viewBox="0 0 24 24" fill="none" stroke="currentC
 export const e=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function brandGlyph(){return `<svg class="brand-glyph" viewBox="0 0 64 64" fill="none" aria-hidden="true"><path d="M10 53L31 10L53 53M19 40H35" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M31 10L53 53H44L27 19Z" fill="currentColor"/></svg>`;}
 export const flower=()=>`<div class="aya-symbol-orbit" aria-hidden="true">${brandGlyph()}</div>`;
-export function brand(){return `<div class="brand" aria-label="AYAH"><img class="ayah-wordmark" src="./media/ayah-wordmark.png" alt="AYAH" width="496" height="197"></div>`;}
+export function brand(){return `<div class="brand" aria-label="AYAH"><img class="ayah-wordmark" src="./media/ayah-wordmark.png" alt="AYAH" width="1995" height="788"></div>`;}
 export const nav=[['presentation','chat','Apresentação'],['partner','heart','Visão da Dani'],['research','search','Pesquisa de mercado'],['today','home','Meu dia'],['agenda','calendar','Agenda'],['memory','memory','Memória'],['wellness','heart','Bem-estar'],['money','wallet','Dinheiro'],['rhythm','heart','Seu ritmo'],['week','chart','Minha semana'],['affiliate','gift','Portal de criadores'],['launch','chart','Lançamento 50 + 50'],['settings','settings','Ajustes'],['design','spark','Design system'],['ecosystem','chart','Estrutura startup']];
 
 export function uiButton(label,{action='',variant='primary',small=false,iconName=''}={}){return `<button type="button" class="btn ${e(variant)} ${small?'small':''}" ${action?`data-action="${e(action)}"`:''}>${e(label)}${iconName?icon(iconName):''}</button>`;}

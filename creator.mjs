@@ -1,1 +1,1 @@
-export const CREATOR_MATERIALS=[]; export const creatorPortal=()=>"<section class=\"card\"><h2>Área da operação</h2><p>Esta área não faz parte da apresentação pública.</p><button class=\"btn outline\" data-view=\"presentation\">Voltar às experiências</button></section>";
+export const CREATOR_MATERIALS=[]; export const creatorPortal=()=>"<section class=\"card\"><h2>Conheça a experiência AYAH.</h2><p>Escolha o espaço que você quer experimentar.</p><button class=\"btn outline\" data-view=\"presentation\">Voltar às experiências</button></section>";
