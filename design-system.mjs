@@ -1,0 +1,1 @@
+export const designSystem=()=>"<section class=\"card\"><h2>Área da operação</h2><p>Esta área não faz parte da apresentação pública.</p><button class=\"btn outline\" data-view=\"presentation\">Voltar às experiências</button></section>";
